@@ -29,6 +29,10 @@ sha256sum -c SHA256SUMS
 - Destroying (securely deleting) files is only in the CLI version; browsers can't delete files.
 - A lost passphrase cannot be recovered.
 
+## Value-4-Value
+
+This tool is free to use, no ads, no tracking. It runs on the Value-4-Value model: if it saved you time, give back what it was worth to you at https://allesvoorbitcoin.be/donate
+
 ## License
 
 MIT, see [LICENSE](LICENSE). Bundled typage and its dependencies (noble-hashes, noble-ciphers, noble-curves, scure-base) are MIT licensed.
