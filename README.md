@@ -1,8 +1,8 @@
-# age-good (HTML)
+# age (HTML)
 
 A single-file, offline tool to encrypt and decrypt files with a passphrase, in the standard [age](https://age-encryption.org) format.
 
-- **One file**: `age-good.html`. Open it in a browser. No install, no server.
+- **One file**: `age.html`. Open it in a browser. No install, no server.
 - **Offline by design**: a Content-Security-Policy (`connect-src 'none'`) blocks all network connections from the page.
 - **Standard format**: files are compatible with the `age` command-line tool (`age -d file.age`).
 - **Crypto**: bundled [typage](https://github.com/FiloSottile/typage) (`age-encryption` on npm, by Filippo Valsorda), scrypt passphrase mode.
@@ -10,7 +10,7 @@ A single-file, offline tool to encrypt and decrypt files with a passphrase, in t
 
 ## Use
 
-1. Open `age-good.html` in a browser (ideally while offline).
+1. Open `age.html` in a browser (ideally while offline).
 2. Choose or drop a file. Files ending in `.age` switch to Decrypt automatically.
 3. Encrypt: write the suggested words on paper, tick the box, download `<name>.age`.
 4. Decrypt: type the passphrase, download the original file.
